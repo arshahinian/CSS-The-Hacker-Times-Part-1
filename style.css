@@ -18,8 +18,10 @@ main h5 {
     color: #DD3232;
 }
 nav{
-    margin-left:0em;
+    margin:auto;
+    padding: 0em;
     text-align: center;
+    
 }
 
 nav a {
@@ -34,4 +36,15 @@ nav li {
 
 h1{
     text-align: center;
+}
+
+section
+{
+    display: inline-block;
+    width:300px;
+    margin:auto;
+    padding: 20px 20px;
+}
+img{
+    margin:auto;
 }
