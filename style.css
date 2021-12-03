@@ -17,15 +17,22 @@ body{
 main h5 {
     color: #DD3232;
 }
-nav{
+nav {
     margin:auto;
     padding: 0em;
     text-align: center;
-    
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    position:sticky;
+    top:0px;
+    background-color: white;
 }
 
 nav a {
-    color: #777;    
+    color: #777;
+    text-decoration: none; 
+    font-size:0.8em;
+    padding:5px;
 }
 
 nav li {
@@ -36,6 +43,8 @@ nav li {
 
 h1{
     text-align: center;
+    font-weight:bolder;
+    font-size: 3em;    
 }
 
 section
@@ -46,5 +55,22 @@ section
     padding: 20px 20px;
 }
 img{
-    margin:auto;
+    display: block;
+}
+main img{    
+    width:675px;
+}
+.more-articles img{      
+    width:325px;
+}
+main p{    
+    padding: 5px 1px 5px 10px;
+    text-align:justify;
+}
+.more-articles p{      
+    padding: 5px 1px 5px 10px;
+    text-align:justify;
+}
+.more-articles {
+    border-top:1px solid #777;
 }
